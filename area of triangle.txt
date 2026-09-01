@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+    float sidea=0;
+    float sideb=0;
+    float sidec=0;
+    float s=0;
+    float area=0;
+    printf("enter side a value: \n");
+    scanf("%f", &sidea);
+    printf("enter side b value: \n");
+    scanf("%f", &sideb);
+     printf("enter side c value: \n");
+    scanf("%f", &sidec);
+
+    s= (sidea+sideb+sidec)/2;
+    area = sqrt(s*(s-sidea)*(s-sideb)*(s-sidec));
+
+    printf("THE AREA OF THE TRIANGLE IS = %f",area);
+
+    return 0;
+}
