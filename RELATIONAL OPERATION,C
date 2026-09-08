@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int a,b;
+    printf("Enter two values to perform relational operations: ");
+    scanf("%d %d", &a, &b);
+        printf("a == b: %d\n", a == b);
+        printf("a != b: %d\n", a != b);
+        printf("a > b: %d\n", a > b);
+        printf("a < b: %d\n", a < b);
+        printf("a >= b: %d\n", a >= b);
+        printf("a <= b: %d\n", a <= b);
+        printf("note: the results of relational operations are either 0 (false) or 1 (true)\n");
+    return 0;
+}
